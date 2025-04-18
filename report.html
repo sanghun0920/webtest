@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+</head>
+<body>
+<table border="0">
+<br>
+  <tr>
+    <td>
+      <b p style="color:blue;">STEP3</b><br><b p style="color:blue;">정보입력&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+    </td>
+    <td colspan="3"><p style="font-size:18px"><b>기본정보 입력</b></p></td>
+  </tr>
+  <tr>
+<td></td>
+    <td>아이디</td>
+    <td>
+      <input type="text" name="userid"><img src='./img/checkredundancy.png' width='70' height='30'>
+    </td>    
+  </tr>
+  <tr>
+    <td></td>
+    <td><p>비밀번호</p></td>
+    <td><input type="password" name="password"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>비밀번호 확인</td>
+    <td><input type="password" name="password_confirm"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="3"><p style="font-size:18px"><b>개인정보 입력</b></p></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>이름</td>
+    <td><input type="text" name="name"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><p>이메일</p></td>
+    <td>
+      <input type="text" name="email"><img src='./img/emailauthentication.png' width='70' height='30'>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>
+      <input type="checkbox" name="email_agree"> 이메일 수신 동의<br>
+      <p style="font-size:14px"></p>
+    </td>
+  </tr>
+<tr>
+<td></td>
+<td></td>
+<td>① 수신거부 시 일부 서비스에 제한이 있을 수 있습니다. 비밀번호 초기화 메일<br>수신 등에 반드시 필요한 정보이므로 정확히 이메일 주소를 입력해주세요</td>
+</tr>
+  <tr>
+    <td></td>
+    <td>휴대전화번호</td>
+    <td><input type="text" name="phone"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>
+      <input type="checkbox" name="sms_agree"> SMS 수신 동의<br>
+      <p style="font-size:14px">① 수신거부 시 일부 서비스에 제한이 있을 수 있습니다.</p>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2" align="right">
+      <button>이전 단계</button>
+      <button>다음 단계</button>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
